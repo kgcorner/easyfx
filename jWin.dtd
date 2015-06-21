@@ -1,0 +1,12 @@
+<!ELEMENT controllers (controller*)>
+<!ELEMENT controller (result+,event*,interceptor*)>
+<!ELEMENT result EMPTY>
+<!ELEMENT event EMPTY>
+<!ELEMENT interceptor EMPTY>
+<!ATTLIST controller name CDATA #REQUIRED>
+<!ATTLIST controller class CDATA #REQUIRED>
+<!ATTLIST result name CDATA #REQUIRED >
+<!ATTLIST result fxmlfile CDATA #REQUIRED>
+<!ATTLIST event id CDATA #REQUIRED>
+<!ATTLIST event method CDATA #REQUIRED>
+<!ATTLIST interceptor classname CDATA #REQUIRED>

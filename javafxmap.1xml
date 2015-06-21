@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Controllers SYSTEM "jWin.dtd">
+<Controllers>
+<controller name="login"  class="com.jdc.controller.Login">	
+	<result name="success" fxmlfile="search.fxml" />
+	<result name="error" fxmlfile="login1.fxml" />
+	<event id="drag" method="onDrag" />
+</controller>
+<controller name="search"  class="com.jdc.controller.Search">	
+	<result name="error" fxmlfile="login.fxml" />
+	<interceptor classname="com.abc.com" />
+</controller>
+</Controllers>
