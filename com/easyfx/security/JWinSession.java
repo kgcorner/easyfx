@@ -1,3 +1,7 @@
+/***
+*Provides session scope for each run. Session will be valid until the application is up.
+***/
+
 package com.easyfx.security;
 
 import java.util.HashMap;

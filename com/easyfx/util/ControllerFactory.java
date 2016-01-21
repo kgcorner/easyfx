@@ -1,3 +1,9 @@
+/***
+* This class is responsible for loading all the controllers of the project. Method populateControllerList is supposed to be called in the begening 
+* of the program and later on load method of BaseController should be used for loading fxml files. 
+***/
+
+
 package com.easyfx.util;
 
 import java.io.File;

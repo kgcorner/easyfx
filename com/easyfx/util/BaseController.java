@@ -1,3 +1,7 @@
+/***
+* each controller class is supposed to extend BaseController class. It provides methods for loading fxml file easily by passing result name as defined in 
+* javafxmap.xml file.
+***/
 package com.easyfx.util;
 
 

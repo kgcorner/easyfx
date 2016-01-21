@@ -1,3 +1,7 @@
+/***
+* Class for creating Message repository
+***/
+
 package com.easyfx.util;
 
 import java.util.HashMap;
